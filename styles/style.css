@@ -1,0 +1,71 @@
+
+.principal{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+ .joueur1{
+    width: 80%;
+    height: 100%;
+ }
+
+ .joueur2{
+    width: 80%;
+    height: 100%;
+ }
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.capacityj1{
+    margin-left: 10px;
+    height: 100%;
+    width: 90%;
+}
+
+.capacityj2{
+    display: flex;
+    justify-content:flex-end ; 
+    height: 100%;
+    width: 95%;
+}
+
+body {
+    width: 100vw;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.namecharactere1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.namecharactere2{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.images .hover{
+    cursor: pointer;
+}
+
+.imagepractice{
+    width: 90vw;
+    /* margin: auto; */
+    margin-left: 7%;
+}
