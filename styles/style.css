@@ -20,11 +20,16 @@
 
 
 h1 {
+    color: rgb(132, 157, 236);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
+    height: 5%;
     width: 100%;
+}
+
+h3{
+    color: rgb(132, 187, 236);
 }
 
 .capacityj1{
@@ -42,30 +47,63 @@ h1 {
 
 body {
     width: 100vw;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/arene9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .namecharactere1{
-    width: 100%;
+    margin: 5px;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .namecharactere2{
-    width: 90%;
+
+    width: 100%;
     display: flex;
     justify-content: space-around;
    
 }
 
-.images .hover{
+img:hover{
     cursor: pointer;
+    transform: scale(1.3);
 }
 
-.imagepractice{
-    width: 90vw;
-    /* margin: auto; */
-    margin-left: 7%;
+.cartearcherj1{
+    display: none;
 }
+/* .capacity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.capacity {
+    transform: translateY(0);
+}
+.capacity a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+.capacity a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);} */
